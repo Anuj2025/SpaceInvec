@@ -101,6 +101,7 @@ function update() {
       
       if (alien.y >= ship.y) {
 gameOver = 'true';
+        window.location.reload();
       }
     }
   }
