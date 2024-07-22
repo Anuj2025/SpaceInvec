@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>Space Invaders</title>
+        <link rel="stylesheet" href="space.css">
+ </head>
+
+    <body>
+      <div class="com">
+        <h1>Space Invaders</h1>
+        <canvas id="board"></canvas>
+        <div class="btn">
+        <button id="left" onclick="left()">left</button>
+          <button id="fire" onclick="fire()">fire</button>
+            <button id="right" onclick="right()">right</button>
+        </div>
+        <div class="info">
+          <p>Use <span class="green">ArrowKeys</span> To Move Rowket And Use <span class="green">space</span> To fire
+          </p>
+          
+        </div>
+        
+      <div class="info2">
+                  <p>
+  on Mobile Use <span class="green">fire</span> button And click <span class="green">left</span> <span class="green">right</span> to move
+                  </p>
+          </div>
+        </div>
+        
+      <script src="space.js"></script>
+    </body>
+</html>
